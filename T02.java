@@ -6,12 +6,11 @@ import java.lang.Math;
 
 public class T02 {
     private static Scanner input = new Scanner(System.in);
-
+    
     public static void main(String[] args) {
         String iSBN, judulBuku, penulis, penerbit, formatBukuElektranik, kategori;
         int tahunTerbit, stok;
         double hargaPembelian, minimumMargin, rating;
-
         iSBN = input.nextLine();
         judulBuku = input.nextLine();
         penulis = input.nextLine();
