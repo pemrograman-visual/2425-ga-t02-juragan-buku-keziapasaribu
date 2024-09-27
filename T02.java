@@ -6,7 +6,7 @@ import java.lang.Math;
 
 public class T02 {
     private static Scanner input = new Scanner(System.in);
-    
+
     public static void main(String[] args) {
         String iSBN, judulBuku, penulis, penerbit, formatBukuElektranik, kategori;
         int tahunTerbit, stok;
@@ -22,21 +22,21 @@ public class T02 {
         stok = input.nextInt();
         rating = input.nextDouble();
         if (rating >= 4.7 && rating <= 5) {
-            kategori = "Best Pick.";
+            kategori = "Best Pick";
         } else {
             if (rating >= 4.5) {
-                kategori = "Must Read.";
+                kategori = "Must Read";
             } else {
                 if (rating >= 4.0) {
-                    kategori = "Recommended.";
+                    kategori = "Recommended";
                 } else {
                     if (rating >= 3.0) {
-                        kategori = "Average.";
+                        kategori = "Average";
                     } else {
                         if (rating < 3.0) {
-                            kategori = "Low.";
+                            kategori = "Low";
                         } else {
-                            kategori = "Error.";
+                            kategori = "Error";
                         }
                     }
                 }
