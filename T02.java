@@ -1,5 +1,5 @@
-12S24009_Kezia Vania Pasaribu
-12S24049_Rimanda Santa Risa Panjaitan
+// 12S24009_Kezia Vania Pasaribu
+// 12S24049_Rimanda Santa Risa Panjaitan
 
 import java.util.*;
 import java.lang.Math;
